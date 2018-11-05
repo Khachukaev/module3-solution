@@ -1,0 +1,50 @@
+.wrap{
+	border: 1px solid black;
+	background-color: #6c757d;
+	text-align: center;
+}
+.wrap span{
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom:
+}
+.content{
+	padding-top: 15px;
+	text-align: left;
+}
+
+h2{
+	margin: 35px;
+}
+
+
+@media(max-width: 767px){
+	.navbar-brand>h1{
+		font-size: 6vw;
+	}
+	ul span{
+		text-align: center;
+		font-size: 1.2em;
+	    color: white;
+	}
+
+	li hr{
+		width: 80%;
+		border-color: white;
+	}
+
+	ul li{
+		text-align: center;
+	}
+
+	.navbar-cent{
+      -ms-flex-preferred-size: 100%;
+       flex-basis: 100%;
+       -ms-flex-positive: 1;
+       flex-grow: 1;
+       -ms-flex-align: center;
+       align-items: center;
+    }
+
+}
